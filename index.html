@@ -3,81 +3,11 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <title>Document</title>
       <style>
-            *{
-                  padding: 0px;
-                  margin: 0px;
-            }
-            #header{
-                  height: 10vh;
-                  width: 100vw;
-                  background-color: black;
-                  color:aliceblue;
-                  display: flex;
-                  flex-direction: row;
-                  justify-content: space-between;
-                  padding-top: 1%;
-            }
-            #netflixLogoSlot{
-                  height: 100%;
-                  width: 30%;
-                  display: flex;
-                  flex-direction: row;
-                  align-items: center;
-                  justify-content: center;
-            }
-            #svg{
-                  height: 70%;
-                  width: auto;
-                  fill: red;
-            }
-            #navSide{
-                  height: 100%;
-                  width: 25%;
-                  display: flex;
-                  flex-direction: row;
-                  align-items: center;
-                  justify-content: space-around;
-                  background-color: black;
-            }
-            #langBox{
-                  height: 40%;
-                  background-color: black;
-                  display: flex;
-                  flex-direction: row;
-                  align-items: center;
-                  border: 2px solid white;
-                  border-radius: 5px;
-                  padding-left: 2px;
-            }
-            #lang{
-                  height: 100%;
-                  width: 80%;
-                  font-size: 1em;
-                  font-weight: 500;
-                  background-color: black;
-                  border: none;
-                  color: white;
-            }
-            #button{
-                  height: 40%;
-                  width: 30%;
-                  font-size: 1em;
-                  font-weight: 500;
-                  background-color: #f44336;
-                  border-radius: 5px;
-                  border: 1px solid #f44336;
-                  color: white;
-            }
-            #section1{
-                  height: 85vh;
-                  width: 100vw;
-                  background-color: burlywood;
-                  background-image: linear-gradient( to top,rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.5) 40%,rgba(0, 0, 0, 0.3) 75%,rgba(0, 0, 0, 0.5) 100%),radial-gradient(circle at center,rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.6) 80%),url('/images/netflixBgImg.jpg');
-            } 
-            
+
 
       </style>
 </head>
@@ -94,11 +24,31 @@
                               <option value="hin">Hindi</option>
                         </select>
                   </div>
-                  <button type="button" id="button">Sign in</button>
+                  <button type="button" id="button">Sign in </button>
             </div>
       </div> 
       <div id="section1">
-
+                  <div id="textBox">
+                        <div id="hdgText">Unlimited movies, shows, and more</div>
+                        <div id="infoText">Starts at ₹149. Cancel at any time.</div>
+                  </div>
+                  <div id="infoBox">
+                        <div id="info2Text">Ready to watch? Enter your email to create or restart your membership.</div>
+                        <div id="idButtonDiv">
+                              <input type="email" name="email" id="email" placeholder="Email address">
+                              <button type="button" id="startBtn">Get Started></button>
+                        </div>
+                  </div>
+                  <div class="curve-container">
+                        <svg viewBox="0 0 1440 100" fill="none" xmlns="http://w3.org" style="width:100%; display:block;">
+                        <!-- Red glowing border path -->
+                        <path d="M0,100 Q720,0 1440,100" stroke="#E50914" stroke-width="4" />
+                        <!-- Dark background fill path -->
+                        <path d="M0,100 Q720,0 1440,100 L1440,100 L0,100 Z" fill="#000000" />
+                        </svg>
+                  </div>
       </div>
+
+      
 </body>
 </html>
