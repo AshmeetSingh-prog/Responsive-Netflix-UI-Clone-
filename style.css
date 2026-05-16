@@ -1,11 +1,12 @@
 *{
       padding: 0px;
       margin: 0px;
+      box-sizing: border-box;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 #header{
       height: 10vh;
-      width: 100vw;
+      width: 100%;
       background-color: black;
       color:aliceblue;
       display: flex;
@@ -66,7 +67,7 @@
 }
 #section1{
       height: 87vh;
-      width: 100vw;
+      width: 100%;
       background-image: linear-gradient( to top,rgba(0, 0, 0, 0.59) 0%,rgba(0, 0, 0, 0.5) 40%,rgba(0, 0, 0, 0.3) 75%,rgba(0, 0, 0, 0.5) 100%),radial-gradient(circle at center,rgba(0, 0, 0, 0.5) 0%,rgba(0, 0, 0, 0.6) 80%),url('/images/netflixBgImg.jpg');
       display: flex;
       flex-direction: column;
@@ -143,4 +144,61 @@ textarea::placeholder {
       position:absolute;
       bottom: 0;
       width: 100%;
+}
+
+#trendSec{
+      height: 70vh;
+      width: 100%;
+      padding-top: 2%;
+      padding-left: 4%;
+      display: flex;
+      flex-direction: column;
+      background-color: brown;
+}
+#trendTextBox{
+      height: 20%;
+      background-color: antiquewhite;
+}
+#trendT{
+      background-color: aqua;
+      font-size: 2rem;
+      font-weight: 600;
+}
+#trendMovBox{
+      height: 60%;
+      background-color:chartreuse;
+      display: flex;
+      justify-content: space-evenly;
+}
+.mov{
+      height: 100%;
+      width: 20%;
+      background-color: blueviolet;
+      border: 1px solid black;
+      background-size: cover;
+      border-radius: 10px;
+      opacity: 0.9;
+      position: relative;
+}
+#mov1{
+      background-image: url(/images/download\ \(1\).jpg);
+}
+#mov2{
+      background-image: url(/images/mov2.jpg);
+}
+#mov3{
+      background-image: url(/images/mov3.jpg);
+}
+#mov4{
+      background-image: url(/images/mov4.jpg);
+}
+.num{
+      font-size: 5rem;
+      background-color: aqua;
+      display: inline-block;
+      position:absolute;
+      bottom: 0;
+      left: -10%;
+      -webkit-text-stroke: 2px white; 
+      font-weight: 900;
 }
