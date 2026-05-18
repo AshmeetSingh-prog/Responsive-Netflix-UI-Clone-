@@ -174,7 +174,7 @@ textarea::placeholder {
       border: 1px solid black;
       background-size: cover;
       border-radius: 10px;
-      opacity: 0.97;
+      opacity: 1;
       position: relative;
 }
 #mov1{
@@ -197,4 +197,50 @@ textarea::placeholder {
       left: -10%;
       -webkit-text-stroke: 2px white; 
       font-weight: 900;
+}
+/* FAQ SECTION */
+#faqSection{
+      height: 100vh;
+      width: 100%;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      padding-top: 2%;
+      padding-left: 4%;
+      padding-right: 4%;
+
+}
+#faqTextBox{
+      width: 100%;
+}
+#faqText{
+      color: white;
+      font-weight: 600;
+      font-size: 2rem ;
+
+}
+#quesBoxSec{
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+}
+.quesBoxes{
+      height: 13%;
+      width: 100%;
+      border: 1px solid black;
+      background-color: rgb(56, 55, 55);
+      padding-left: 2%;
+      padding-right: 2%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.questionText{
+      color: white;
+      font-size: 1.5rem;
+}
+.icondiv{
+      color: white;
+      font-size: 2rem;
 }
