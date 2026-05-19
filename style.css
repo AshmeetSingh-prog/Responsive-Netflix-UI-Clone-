@@ -244,3 +244,123 @@ textarea::placeholder {
       color: white;
       font-size: 2rem;
 }
+/* Footer Section */
+#footerSec{
+      height: 70vh;
+      width: 100%;
+      background-color: black;
+      padding-top: 4%;
+      padding-left: 4%;
+      padding-right: 4%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+}
+#contactText{
+      color: #b0afaf;
+      font-weight: 700;
+      font-size: 1.1rem;
+}
+#aboutSecDiv{
+      height: 75%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+.aboutSecBox{
+      height: 60%;
+      width: 45%;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+}
+.anchorTags{
+      color: #b0afaf;
+      font-weight: 690;
+      font-size: 0.8rem;
+      text-decoration: underline;
+}
+
+#langBox2{
+      height: 7%;
+      width: 10%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border: 1px solid white;
+      border-radius: 5px;
+      padding-left: 2px;
+      color: white;
+}
+
+#lang2{
+      height: 100%;
+      width: 80%;
+      background-color: black;
+      font-size: 1em;
+      font-weight: 500;
+      border: none;      
+      border-radius: 5px;
+      color: white;
+      outline: none;
+}
+#netflixText{
+      color: #b0afaf;
+      font-weight: 600;
+      font-size: 1rem;
+      margin-top: 2%;
+}
+/* Responsive */
+@media (max-width: 1025px){
+      #mov3{
+            display: none;
+      }
+      #mov4{
+            display: none;
+      }
+      .mov{
+            height: 100%;
+            width: 40%;
+      }
+}
+
+@media (max-width: 768px){
+      #header{
+            height: 12vh;
+            padding-left: 1%;
+      }
+      #navSide{
+            width: 50%;
+      }
+      #textBox{
+            height: 20%;
+            width: 80%;
+            font-size: 0.7rem;
+      }
+      #infoBox{
+            width: 80%;
+      }
+      #info2Text{
+            width: 100%;
+            font-size: 1rem;
+      }
+      #idButtonDiv{
+            font-size: 0.8rem;
+      }
+      .mov{
+            height: 70%;
+            width: 40%;
+      }
+      #mov3{
+            display: none;
+      }
+      #mov4{
+            display: none;
+      }
+      #langBox2{
+            width: 30%;
+      }
+
+}
